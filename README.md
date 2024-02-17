@@ -1,3 +1,11 @@
+
+━━━━━━━━━━━━━━━━━━━━
+
+<b> HEROKU'LA DAĞIDIN</b>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abbasxan/NewRoBot.git)
+
+━━━━━━━━━━━━━━━━━━━━
+
 <h1 align="center"> 
     ✨ WilliamButcherBot ✨ 
 </h1>
