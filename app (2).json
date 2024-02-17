@@ -1,0 +1,77 @@
+{
+    "name": "NEON ダ Music ve tag",
+    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları ve Etiketlemek  üçün VC Player ve Tag Botu.",
+    "logo": "https://te.legra.ph/file/f039e00ccd18d625f3771.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Fallen",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
+        "value": "21122885",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
+        "value": "08324eb4d401d75c4b66fe4c94b88ef3",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "Botfather-dən Bot nişanı",
+        "value": "6486835413:AAH8NbnAwDvsUCtU9UWUGs-4dLSZsMrsX-g",
+        "required": true
+      },
+        "PING_IMG": {
+        "description": "ping seklin yazin jpg",
+        "value": "https://telegra.ph/file/a85a94c666e60602e0ec3.jpg",
+        "required": true
+       },
+         "FAILED": {
+        "description": "yanit play music imge",
+        "value": "https://graph.org/file/3ddb80b64eec67d947cf2.jpg",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
+        "value": "5045429385",
+        "required": true
+      },
+      "SESSION": {
+        "description": "@Telegram-dan piroqram v2 sim seansı",
+        "value": "AgFCT0UAnYViPTHl43Fq44LGZkQnB6lXZD2hu6k-IPzmz2ZazESspPm_cNXUsdp8N_Ru1gp3o2bLawR0_7L86-_U-TZS3rj9rBSsiEBvM5goSZbJGK32-SuuM0q3yezOjg3IufeXT5Cqi2fKAWTfUr2UN3ma6M5p7LHDuycDzRoHhQrFYsX4_jYUGDAElnxwhm_Ly0_KMzXn6HbtsVSkxOsXELhRNyjXoBGb-zZkyW8qyOcIWAKV3oSKtm8Ptl_5QdB-gD9UBM8Uc88QFqhf1mZCc5vdengdKNbbzqlTG2ccMPffBAGr_Dh9Q52thuIIeC0oF9rY8QnC6rQLBLEP82hRMdp6bwAAAAFZIiA3AA",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
+        "value": "65396443978 5540240707 6596287563 6073177556 1323681889 1272175992",
+        "required": true
+      },
+        "SUPPORT_CHANNEL": {
+        "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
+        "value": "https://t.me/neonfedresmi",
+        "required": false
+        },
+      "SUPPORT_CHAT": {
+        "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
+        "value": "https://t.me/neonfedchat",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+    }
