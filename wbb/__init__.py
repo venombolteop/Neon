@@ -37,9 +37,9 @@ from telegraph import Telegraph
 is_config = path.exists("config.py")
 
 if is_config:
-    from config import config
+    from config import *
 else:
-    from config import config
+    from config import config.py
 
 USERBOT_PREFIX = USERBOT_PREFIX
 GBAN_LOG_GROUP_ID = GBAN_LOG_GROUP_ID
