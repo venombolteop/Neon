@@ -37,7 +37,7 @@ from telegraph import Telegraph
 is_config = path.exists("sample_config.py")
 #is_config = path.exists("config.py") yuxaridakin yoxlamaq ucun eledim sabah silecem
 if is_config:
-    from config import *
+    from sample_config import *
 else:
     from sample_config import *
 
