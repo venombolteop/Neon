@@ -48,12 +48,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
-        "value": "-1001609611579",
+        "value": "-1001674865910",
         "required": false
       },
         "GBAN_LOG_GROUP_ID": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "-1001609611579",
+        "value": "-1001674865910",
         "required": false
         },
       "MESSAGE_DUMP_CHAT": {
@@ -83,7 +83,7 @@
       },
       "LOG_MENTIONS": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "-1001609611579",
+        "value": "-1001674865910",
         "required": false
       },
       "RSS_DELAY": {
