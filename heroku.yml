@@ -1,16 +1,11 @@
-#build:
-#  docker:
-#    worker: Dockerfile
- #run:
- #  worker: bash python3 -m wbb
+build:
+  docker:
+    worker: Dockerfile
+ run:
+   worker: bash python3 -m wbb
 
   # build:
   # docker:
   #     worker: Dockerfile
 
   # ren ed ve diger deyerler topla
-build:
-  docker:
-    worker: Dockerfile
-run:
-  worker: python3 -m wbb
