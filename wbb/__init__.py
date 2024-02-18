@@ -39,7 +39,7 @@ is_config = path.exists("config.py")
 if is_config:
     from config import *
 else:
-    from sample_config import *
+    from config import *
 
 USERBOT_PREFIX = USERBOT_PREFIX
 GBAN_LOG_GROUP_ID = GBAN_LOG_GROUP_ID
