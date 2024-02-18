@@ -58,7 +58,7 @@
         },
       "MESSAGE_DUMP_CHAT": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "-1001609611579",
+        "value": "1001609611579",
         "required": false
       },
       "WELCOME_DELAY_KICK_SEC": {
