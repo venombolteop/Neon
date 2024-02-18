@@ -15,7 +15,7 @@ PHONE_NUMBER = os.environ.get("PHONE_NUMBER","+994512013527")
 SUDO_USERS_ID = list(map(int, os.environ.get("SUDO_USERS_ID", "5570119623 5045429385").split()))
 LOG_GROUP_ID = int(os.environ.get("LOG_GROUP_ID", "-1001609611579"))
 GBAN_LOG_GROUP_ID = int(os.environ.get("GBAN_LOG_GROUP_ID","-1001674865910"))
-MESSAGE_DUMP_CHAT = int(os.environ.get("MESSAGE_DUMP_CHAT","neonfedsupport"))
+MESSAGE_DUMP_CHAT = int(os.environ.get("MESSAGE_DUMP_CHAT", None ))
 WELCOME_DELAY_KICK_SEC = int(os.environ.get("WELCOME_DELAY_KICK_SEC", 600))
 MONGO_URL = os.environ.get("MONGO_URL","mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority")
 ARQ_API_KEY = os.environ.get("ARQ_API_KEY")
@@ -23,3 +23,4 @@ ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.dev")
 LOG_MENTIONS = os.environ.get("LOG_MENTIONS", "True").lower() in ["true", "1"]
 RSS_DELAY = int(os.environ.get("RSS_DELAY", 300))
 PM_PERMIT = os.environ.get("PM_PERMIT", "True").lower() in ["true", "1"]
+UPSTREAM_REPO = environ.get("UPSTREAM_REPO", "https://github.com/Abbasxan/NewRoBot.git"
