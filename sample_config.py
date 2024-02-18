@@ -23,4 +23,3 @@ ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.dev")
 LOG_MENTIONS = os.environ.get("LOG_MENTIONS", "True").lower() in ["true", "1"]
 RSS_DELAY = int(os.environ.get("RSS_DELAY", 300))
 PM_PERMIT = os.environ.get("PM_PERMIT", "True").lower() in ["true", "1"]
-UPSTREAM_REPO = environ.get("UPSTREAM_REPO", "https://github.com/Abbasxan/NewRoBot.git"
