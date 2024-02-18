@@ -34,8 +34,8 @@ from pyromod import listen
 from Python_ARQ import ARQ
 from telegraph import Telegraph
 
-is_config = path.exists("config.py")
-
+is_config = path.exists("sample_config.py")
+#is_config = path.exists("config.py") yuxaridakin yoxlamaq ucun eledim sabah silecem
 if is_config:
     from config import *
 else:
