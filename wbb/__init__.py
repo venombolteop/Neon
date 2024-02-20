@@ -33,14 +33,6 @@ from pyrogram.types import Message
 from pyromod import listen
 from Python_ARQ import ARQ
 from telegraph import Telegraph
-#from config import *
-
-#is_config = path.exists("sample_config.py")
-#is_config = path.exists("config.py") yuxaridakin yoxlamaq ucun eledim sabah silecem
-#if is_config:
-#    from sample_config import *
-#else:
-#    from sample_config import *
 
 
 BOT_TOKEN="6652148246:AAFW45QJL95sK9DywEHzm7DaY4LIpQc76bE" # Get it from @botfather
