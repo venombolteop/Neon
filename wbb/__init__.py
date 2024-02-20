@@ -33,13 +33,14 @@ from pyrogram.types import Message
 from pyromod import listen
 from Python_ARQ import ARQ
 from telegraph import Telegraph
+from config import *
 
-is_config = path.exists("sample_config.py")
+#is_config = path.exists("sample_config.py")
 #is_config = path.exists("config.py") yuxaridakin yoxlamaq ucun eledim sabah silecem
-if is_config:
-    from sample_config import *
-else:
-    from sample_config import *
+#if is_config:
+#    from sample_config import *
+#else:
+#    from sample_config import *
 
 USERBOT_PREFIX = USERBOT_PREFIX
 GBAN_LOG_GROUP_ID = GBAN_LOG_GROUP_ID
