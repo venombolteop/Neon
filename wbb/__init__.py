@@ -41,7 +41,7 @@ API_ID=22514909
 
 API_HASH="625b2dfe66926aaf7a41018d07eba8a7"
 
-SESSION_STRING="AgFXjN0AtAUKvmL9S4q0FPsekOz0Kro_o5Va_awK8wNPoWiZAfzO23wfgV-NZo4AY7bZ_ojmNigZ-LWOrbbYcUWCTuyvc8QWDZ8mYaC4V3tVhnV3OizTzGooBKcXrnydyRv9_72okkmSOd9MyOV1DTAE32VXXu1wgtHwgW8VwOBVd527mYaWexwBkth4n4fsfMoc-rsWjvPKrXV-ip5fJgYgMZsx5zs6WyR0my_gTjhzSOL3Y3Rk6IyTE7auOUClLU8zSuku5KEzUN-rL5czTerDL9fQ0-ESeskmRbHa-6XEsdCk4YoqQcRRtT2JI86nL0L06DfnJsXQvpHT5Tetdsak0KhOZwAAAAF8uz0RAA"  # Check Readme to generate sessions
+SESSION_STRING="AgFXjN0AiTwjMI3o-q0ckeDazFjjNDs_tTqJUNb51x3c9MVqkS-qBIjQSnQ7stO_Ez-H3i0kheAJVFz6Di9Z22BO_SCL3FOhIteEXbGKdULtwH8bzKYOuJ8EBL7s7L1lZ2QxST5dZkolJmNjWH50oMg4HmEW4AVQVlf9m9xZMFeQ7E1rrpNS7lWe8sHJLIMp20_U6n_ihMTKQ-EJRxTaAnOTw7-OXlXz2EQ_HrV8OORu3C5xVurG9qxNMHwacMB4gQCmg0Qfs-89hWrl3OOPFO-VnVRi7DRmfHSTFuZE9ZlsU11GbL7qdq2g_NDjCiuLXi7k9sS35SqsiMfExdIoF6o1YG0GUAAAAAF8uz0RAA"
 
 USERBOT_PREFIX="."
 
@@ -131,11 +131,8 @@ if not SESSION_STRING:
     )
 else:
     app2 = Client(
-        name="userbot",
-        bot_token=BOT_TOKEN,
-        api_id=API_ID,
-        api_hash=API_HASH,
-        #session_string=SESSION_STRING,
+        "userbot",
+        session_string=SESSION_STRING,
     )
 
 aiohttpsession = ClientSession()
