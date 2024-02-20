@@ -112,9 +112,10 @@ if not SESSION_STRING:
 else:
     app2 = Client(
         name="userbot",
+        bot_token=BOT_TOKEN,
         api_id=API_ID,
         api_hash=API_HASH,
-        session_string=SESSION_STRING,
+        #session_string=SESSION_STRING,
     )
 
 aiohttpsession = ClientSession()
