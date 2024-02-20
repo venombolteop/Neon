@@ -14,7 +14,7 @@ SUDO_USERS_ID=[5570119623, 5045429385] # Sudo users have full access to everythi
 
 LOG_GROUP_ID=[-1001674865910]
 
-MONGO_URL= mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority
+MONGO_URL="mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
 
 GBAN_LOG_GROUP_ID=[-1001674865910]
 
