@@ -12,13 +12,13 @@ USERBOT_PREFIX="."
 
 SUDO_USERS_ID=[5570119623, 5045429385] # Sudo users have full access to everythin, don't trust anyone
 
-LOG_GROUP_ID=[-1001674865910]
+LOG_GROUP_ID=-1001674865910
 
 MONGO_URL="mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
 
-GBAN_LOG_GROUP_ID=[-1001674865910]
+GBAN_LOG_GROUP_ID=-1001674865910
 
-MESSAGE_DUMP_CHAT=[-1001609611579]
+MESSAGE_DUMP_CHAT=-1001609611579
 
 WELCOME_DELAY_KICK_SEC=300 # Edit if u want
 
