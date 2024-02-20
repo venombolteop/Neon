@@ -22,8 +22,6 @@ MESSAGE_DUMP_CHAT=[-1001609611579]
 
 WELCOME_DELAY_KICK_SEC=300 # Edit if u want
 
-MONGO_URL="mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
-
 ARQ_API_URL="https://arq.hamker.dev" # Leave it like this
 
 ARQ_API_KEY="UENTQI-XCFHRE-XFNNBY-YQVXOD-ARQ" # Get it from @ARQRobot
