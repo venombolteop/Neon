@@ -1,8 +1,8 @@
 build:
   docker:
     worker: Dockerfile
- #run:
- #  worker: bash python3 -m wbb
+ run:
+   worker: bash python3 -m wbb
 
   # build:
   # docker:
