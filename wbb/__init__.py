@@ -37,9 +37,9 @@ from telegraph import Telegraph
 
 BOT_TOKEN="6037242990:AAH4yK1ovZwEnjT2yV22JYmNGXW3nOT9QEk" # Get it from @botfather
 
-API_ID=22514909
+API_ID=22341875
 
-API_HASH="625b2dfe66926aaf7a41018d07eba8a7"
+API_HASH="b13c2392d55ae8a4800d3b4ed40bffb2"
 
 SESSION_STRING="AgE7aHwAdQ3D6JtDLnTaNnqx0-nxtlvjZ6t_8MtkX1oJ8hZQ6ttEnHpUSNo0dQJDFHT-OQXDOx09hMOm9X9-_mKbGjbmyGQupz-xuGiTGNLDhsw5kwjVo1F-ivWavlPJq3T4e-VIgyt7y_weDFFPgCOM_mOCvLAQdlTGjeAy-MvDBUhxyjQtaU6ueietrqV34Cd260Vd_YPMqd7o-MKZk5Dbwvf7-tLqqtCsL6vNi8j_wQhNs6fv32tjQ0Ayik93uu9vVJlrXI6PNthPkIT9wsrW6XoWDJWm0kFymGtiHsMl-8OI9ucizP3mJHJ63uHD5LQw0aVvUIfvUv8AU6UKrdz0gvZWpAAAAAFr3-D8AA"
 
@@ -59,7 +59,7 @@ WELCOME_DELAY_KICK_SEC=300 # Edit if u want
 
 ARQ_API_URL="https://arq.hamker.dev" # Leave it like this
 
-ARQ_API_KEY="UENTQI-XCFHRE-XFNNBY-YQVXOD-ARQ" # Get it from @ARQRobot
+ARQ_API_KEY="NDUZKA-EJDXBX-TJWGGO-MDTLCL-ARQ" # Get it from @ARQRobot
 
 LOG_MENTIONS=1 # Make it 1 if you want to enable it
 
