@@ -121,8 +121,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/Abbasxan",
+                text="Rəsmi kanal",
+                url="https://t.me/NeonfedResmi",
             ),
         ],
         [
@@ -157,8 +157,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/Abbasxan",
+                text="Rəsmi kanal",
+                url="https://t.me/NeonfedResmi",
             ),
         ],
         [
@@ -166,7 +166,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/neonsahib"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/Tiri_viri_isıer"),
         ],
     ]
 )
