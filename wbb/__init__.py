@@ -45,15 +45,15 @@ SESSION_STRING="AgE7aHwAdQ3D6JtDLnTaNnqx0-nxtlvjZ6t_8MtkX1oJ8hZQ6ttEnHpUSNo0dQJD
 
 USERBOT_PREFIX="."
 
-SUDO_USERS_ID=[5898049921, 5898049921] # Sudo users have full access to everythin, don't trust anyone
+SUDO_USERS_ID=[5898049921] # Sudo users have full access to everythin, don't trust anyone
 
-LOG_GROUP_ID=-1002038970547
+LOG_GROUP_ID=-1002064001274
 
 MONGO_URL="mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
 
 GBAN_LOG_GROUP_ID=-1002064001274
 
-MESSAGE_DUMP_CHAT=-1001862865565
+MESSAGE_DUMP_CHAT=-1002064001274
 
 WELCOME_DELAY_KICK_SEC=300 # Edit if u want
 
