@@ -2,7 +2,7 @@ aiohttp
 aiofiles
 ffmpeg-python
 gTTS
-dnspython==2.1.0
+dnspython==2.9.2
 future
 googletrans==4.0.0-rc1
 motor
